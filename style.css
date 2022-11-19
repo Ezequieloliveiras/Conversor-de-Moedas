@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0093E9;
+  background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+}
+body .wrapper {
+  width: 370px;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+}
+body .wrapper form :where(input, select, button) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+body .wrapper form p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+body .wrapper form input {
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+body .wrapper form input:focus {
+  padding: 0 14px;
+  border: 2px solid rgb(59, 59, 97);
+}
+body .wrapper form .drop-list {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+body .wrapper .drop-list .select-box {
+  display: flex;
+  height: 45px;
+  width: 115px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+}
+body .wrapper .select-box select {
+  width: auto;
+  font-size: 16px;
+  margin: 0 -5px 0 5px;
+}
+body .wrapper .select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+body .wrapper .select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+body .wrapper .select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
+}
+body .wrapper .select-box img {
+  max-width: 25px;
+}
+body .wrapper .drop-list .icon {
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 30px;
+}
+body .wrapper form .exchange-rate {
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+body .wrapper form button {
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: rgb(59, 59, 97);
+}
+body .wrapper .allbutton:hover {
+  background-color: rgb(72, 72, 124);
+}
+body .wrapper header {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+body .wrapper form {
+  margin: 40px 0 20px 0;
+}/*# sourceMappingURL=style.css.map */
